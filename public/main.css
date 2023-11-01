@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&family=Merriweather:wght@900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Section 1  */
+
+.game-container {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+}
+
+.game-status {
+    margin: 20px auto;
+    font-size: 28px;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:  repeat(3, 1fr);
+    gap:5px;
+    background-color: #000;
+}
+
+.cell {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 24px;
+    background-color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Martian Mono', monospace;
+}
+
+button {
+    padding: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#give-up {
+    background-color: red;
+}
+
+#new-game {
+    background-color: green;
+}
