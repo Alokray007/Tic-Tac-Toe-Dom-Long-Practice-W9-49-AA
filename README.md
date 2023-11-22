@@ -56,7 +56,7 @@ The interface should include the following elements:
 * Two buttons at the bottom. One that reads exactly "New Game" on the left, and
   one that reads exactly "Give Up" on the right. You should try to use either
   _flexbox_ or _grid_ layouts to achieve this.
-* The entire UI should be horizontally center aligned in the page.
+* The entire UI should be horizontally center aligned in the page
 
 Apply paddings and margins where necessary to avoid overcrowding of components.
 Remember, whitespace positioning is just as important as the actual UI elements'
